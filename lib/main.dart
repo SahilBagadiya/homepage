@@ -30,7 +30,7 @@ class Simple extends StatelessWidget {
         title: Text('home'),
       ),
       body: Center(
-        child: Text('this my home page'),
+        child: Text('this my home page',textAlign: TextAlign.center,),
       ),
     );
   }
